@@ -64,7 +64,7 @@ def model_train(X, y):
         metrics=["accuracy"]
         )
 
-    model.fit(X, y, batch_size=64, epochs=100)
+    model.fit(X, y, batch_size=32, epochs=100)
 
     # modelの保存
     model.save("./animal_cnn_aug.h5")
@@ -76,6 +76,6 @@ def model_eval(model, X, y):
     print("test loss: ", scores[0])
     print("tesr Accuracy: ", scores[1])
 
-# 何しているのかマジで謎
+# 何しているのかマジで謎 ==>解決した！！！
 if __name__ == "__main__":
     main()

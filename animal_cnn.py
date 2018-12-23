@@ -64,7 +64,7 @@ def model_train(X, y):
         metrics=["accuracy"]
         )
 
-    model.fit(X, y, batch_size=32, epochs=100)
+    model.fit(X, y, batch_size=64, epochs=80)
 
     # modelの保存
     model.save("./animal_cnn.h5")
