@@ -5,8 +5,8 @@ import os, time, sys
 
 #APIキーの情報
 
-key = "9e858bca1bc983e7d50d17904fd73c9e"
-secret = "abace57f5ed8cc7d"
+key = "///"
+secret = "///"
 wait_time = 1
 
 #保存フォルダの指定
